@@ -121,3 +121,23 @@ p {
     margin: 0.5rem 0 2.25rem;
     font-size: 1.4rem;
 }
+
+.write-tu-us .form-control-label {
+    margin-bottom: 0.35rem;
+    font-size: 0.6rem;
+    color: #999;
+}
+
+.write-to-us .form-control {
+    border-radius: 0;
+    border-color: #999
+}
+
+.write-to-us input {
+    height: 2rem;
+}
+
+.write-to-us textarea {
+    margin-bottom: 1.75rem;
+}
+
