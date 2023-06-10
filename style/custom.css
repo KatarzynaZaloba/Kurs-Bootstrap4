@@ -2,6 +2,7 @@
 
 p {
     font-size: 0.9rem;
+    line-height: 1.75rem;
 }
 
 .btn {
@@ -56,4 +57,27 @@ p {
 
 .introduction-item-header {
     margin: 1.5rem 0 0.75rem;
+}
+
+/** Opinie **/
+
+.testimonial {
+    padding: 100px 0;
+    background-image: url('../images/testimonial-bg.jpg');
+    background-position: 0% 30%;
+    background-repeat: no-repeat;
+}
+
+.testimonial-content {
+    width: 60%
+}
+
+.testimonial-text {
+    font-size: 1rem;
+}
+
+.testimonial-header {
+    margin-bottom: 1.75rem;
+    font-size: 3rem;
+    font-weight: 700;
 }
