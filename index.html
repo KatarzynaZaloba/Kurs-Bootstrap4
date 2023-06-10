@@ -28,15 +28,26 @@
 	</div>
 
 	<div class="container py-5">
-		<div class="dropdown">
-			<button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
-				Dostępne akcje
-			</button>
-			<div class="dropdown-menu">
-				<a href="#" class="dropdown-item">Dodaj</a>
-				<a href="#" class="dropdown-item">Usuń</a>
-				<a href="#" class="dropdown-item">Edytuj</a>
-				<a href="#" class="dropdown-item">Opublikuj</a>
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+			Pokaż modal
+		</button>
+		<div class="modal" tabindex="-1" role="dialog" id="myModal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Utworzono nowy artykuł!</h5>
+						<button type="button" class="close" data-dismiss="modal">
+							<span>
+								&times;
+							</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>możesz teraz zapisać zmiany</p>
+
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
