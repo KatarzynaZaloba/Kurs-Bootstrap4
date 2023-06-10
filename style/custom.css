@@ -1,0 +1,13 @@
+/** Globalne style **/
+
+p {
+    font-size: 0.9rem;
+}
+
+.btn {
+    padding: 0.5rem 1.25rem;
+}
+
+.page-label {
+    letter-spacing: 0.15rem;
+}
