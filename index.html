@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
 	<meta charset="UTF-8">
 	<title>Bootstrap 4 - podstawy</title>
@@ -8,8 +7,18 @@
 	<link rel="stylesheet" href="style/bootstrap.min.css">
 
 </head>
-
 <body>
+
+	<div class="container">
+		<nav class="nav my-4 flex-column flex-md-row nav-tabs">
+			<a href="#" class="nav-link active">Start</a>
+			<a href="#" class="nav-link disabled">Najnowsze artykuły</a>
+			<a href="#" class="nav-link">Komentarze</a>
+			<a href="#" class="nav-link">Użytkownicy</a>
+			<a href="#" class="nav-link">Współpraca</a>
+			<a href="#" class="nav-link">Kontakt</a>
+		</nav>
+	</div>
 
 	<div class="jumbotron jumbotron-fluid bg-primary text-white text-center">
 		<div class="container">
@@ -18,15 +27,13 @@
 	</div>
 
 	<div class="container pt-5">
-
-		<div class="card-columns">
+		<div class="card-deck">
 			<div class="card mb-5">
 				<img src="images/obraz.png" alt="obraz karty" class="card-img-top">
 				<div class="card-body">
 					<h4 class="card-title">Trendy w web designie w 2018</h4>
 					<h5 class="card-subtitle">Webdesign</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque rerum, dolore impedit dicta
-						ducimus.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque rerum, dolore impedit dicta ducimus.</p>
 					<a href="#" class="btn btn-primary card-link">Cały artykuł</a>
 				</div>
 			</div>
@@ -36,25 +43,23 @@
 				<div class="card-body">
 					<h4 class="card-title">Narzędzia i materiały dla webdesignera</h4>
 					<h5 class="card-subtitle">Webdesign</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque rerum, dolore impedit dicta
-						ducimus.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque rerum, dolore impedit dicta ducimus.</p>
 					<a href="#" class="btn btn-primary card-link">Cały artykuł</a>
 				</div>
 			</div>
+
 			<div class="card mb-5">
 				<img src="images/obraz.png" alt="obraz karty" class="card-img-top">
 				<div class="card-body">
 					<h4 class="card-title">Narzędzia i materiały dla webdesignera</h4>
 					<h5 class="card-subtitle">Webdesign</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque rerum, dolore impedit dicta
-						ducimus.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque rerum, dolore impedit dicta ducimus.</p>
 					<a href="#" class="btn btn-primary card-link">Cały artykuł</a>
 				</div>
 			</div>
 		</div>
-
+		
 	</div>
 
 </body>
-
 </html>
