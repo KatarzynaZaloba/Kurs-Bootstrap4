@@ -11,10 +11,6 @@
 
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 		<div class="container">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarContent">
 				<div class="navbar-nav mr-auto">
 					<a href="#" class="nav-link nav-item">Start</a>
 					<a href="#" class="nav-link nav-item active">Artykuły</a>
@@ -22,62 +18,38 @@
 					<a href="#" class="nav-link nav-item">Użytkownicy</a>
 					<a href="#" class="nav-link nav-item">Kontakt</a>			
 				</div>				
-			</div>
 		</div>
 	</nav>
 
-	<div class="jumbotron jumbotron-fluid bg-primary text-white text-center">
+	<div class="jumbotron jumbotron-fluid bg-success text-white text-center">
 		<div class="container">
-			<h1 class="display-3">Najnowsze artykuły</h1>
+			<h1 class="display-3">Wypełnij formularz</h1>
 		</div>
 	</div>
 
 	<div class="container pt-5">
-		<div class="card-deck">
-			<div class="card mb-5">
-				<img src="images/obraz.png" alt="obraz karty" class="card-img-top">
-				<div class="card-body">
-					<h4 class="card-title">Trendy w web designie w 2018</h4>
-					<h5 class="card-subtitle">Webdesign</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque rerum, dolore impedit dicta ducimus.</p>
-					<a href="#" class="btn btn-primary card-link">Cały artykuł</a>
-				</div>
+		<form action="#">
+			<div class="form-group">
+				<label for="name">Imię oraz nazwisko</label>
+				<input class="form-control" type="text" id="name" placeholder="Twoje imię oraz nazwisko">
 			</div>
-
-			<div class="card mb-5">
-				<img src="images/obraz.png" alt="obraz karty" class="card-img-top">
-				<div class="card-body">
-					<h4 class="card-title">Narzędzia i materiały dla webdesignera</h4>
-					<h5 class="card-subtitle">Webdesign</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque rerum, dolore impedit dicta ducimus.</p>
-					<a href="#" class="btn btn-primary card-link">Cały artykuł</a>
-				</div>
+			<div>
+				<label for="email">E-mail</label>
+				<input class="form-control" type="email" id="email" placeholder="przyklad@strefakursow.pl">
+				<small class="form-text text-muted">Bez obaw - nikomu nie udostępnimy twojego email</small>
 			</div>
-
-			<div class="card mb-5">
-				<img src="images/obraz.png" alt="obraz karty" class="card-img-top">
-				<div class="card-body">
-					<h4 class="card-title">Narzędzia i materiały dla webdesignera</h4>
-					<h5 class="card-subtitle">Webdesign</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque rerum, dolore impedit dicta ducimus.</p>
-					<a href="#" class="btn btn-primary card-link">Cały artykuł</a>
-				</div>
+			<div>
+				<label for="country">Kraj</label>
+				<select id="country" class="form-control">
+					<option value="pl">Poland</option>
+					<option value="es">Spain</option>
+					<option value="uk">United Kingdom</option>
+					<option value="us">USA</option>
+				</select>
 			</div>
-		</div>
-		
-		<nav>
-			<ul class="pagination pagination-lg">
-				<li class="page-item disabled"><a href="#" class="page-link">Poprzedni</a></li>
-				<li class="page-item active"><a href="#" class="page-link">1</a></li>
-				<li class="page-item"><a href="#" class="page-link">2</a></li>
-				<li class="page-item"><a href="#" class="page-link">3</a></li>
-				<li class="page-item"><a href="" class="page-link">Następny</a></li>
-			</ul>
-		</nav>
-
+			<button type="submit" class="btn btn-primary">Wyslij</button>
+		</form>	
 	</div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
 </body>
 </html>
