@@ -11,6 +11,7 @@ p {
 
 .page-label {
     letter-spacing: 0.15rem;
+    font-size: 0.75rem;
 }
 
 /** Navbar **/
@@ -96,10 +97,6 @@ p {
     margin-bottom: 1.5rem;
 }
 
-.portfolio-label {
-    font-size: 0.75rem;
-}
-
 .portfolio-subheading {
     margin: 0.4rem 0 1rem;
 }
@@ -107,4 +104,20 @@ p {
 .portfolio-button {
     margin: 0.5rem 0;
     padding: 0.5rem 2rem;
+}
+
+/** Napisz do nas**/
+
+.write-to-us {
+    padding-top: 40px;
+}
+
+.write-to-us-left {
+    width: 80%;
+    padding: 20px 0 50px;
+}
+
+.write-to-us-header {
+    margin: 0.5rem 0 2.25rem;
+    font-size: 1.4rem;
 }
